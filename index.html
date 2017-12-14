@@ -14,13 +14,12 @@
 </head>
 <body>
     <!-- Añadimos nuestra barra de navegación -->
-    <div>
-        <br>
+    <div class="container-fluid">
         <header>
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapsed" data-target="#navbar-1">
+                        <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapsed" data-target="#navbar-1">
                             <span class="sr-only">Menu</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -40,14 +39,20 @@
                 </div>
             </nav>
         </header>
-    </div>
-    <section class="download-app">
-        <div class="container">
-            <div class="row">
+        <section class="row first-section">
+            <div class="col-xs-10 col-xs-offset-2 col-md-5 col-md-offset-7 download">
+                <p>Comienza a viajar<br>con LabCar</p>
+                <button>Descarga la app</button>
             </div>
-        </div>
-    </section>
-
+        </section>
+        <section>
+            <div class="row second-section">
+                <figure class="iphone col-md-offset-2 col-md-10 col-md-pull-0">
+                    <img src="assets/images/iPhone6Plus.png" alt="">
+                </figure>
+            </div>
+        </section>
+    </div>
     <!-- Import jQuery and bootstrap -->
     <script src="vendors/js/jquery.js"></script>
     <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
