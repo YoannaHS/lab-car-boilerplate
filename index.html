@@ -13,46 +13,64 @@
     <title>LabCar</title>
 </head>
 <body>
-    <!-- Añadimos nuestra barra de navegación -->
-    <div class="container-fluid">
-        <header>
+<!-- Añadimos nuestra barra de navegación en el header -->
+    <section>
+        <header class="container-fluid">
             <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapsed" data-target="#navbar-1">
-                            <span class="sr-only">Menu</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a href="#" class="navbar-brand"><img src="assets/images/logoForma.png" alt=""></a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbar-1">
-                        <ul class="nav navbar-nav">
-                            <li><a href="">Viaja</a></li>
-                            <li><a href="">Conduce</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Inicia Sesión</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapsed" data-target="#navbar-1">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"><img src="assets/images/logoForma.png" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="">Viaja</a></li>
+                        <li><a href="">Conduce</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Inicia Sesión</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </header>
-        <section class="row first-section">
-            <div class="col-xs-10 col-xs-offset-2 col-md-5 col-md-offset-7 download">
-                <p>Comienza a viajar<br>con LabCar</p>
-                <button>Descarga la app</button>
+    </section>
+<!-- Section app y registro -->
+    <section class="container-fluit second-section">
+        <div class="col-xs-8 col-md-5 main-item">
+            <p>Comienza a viajar<br>con LabCar</p>
+            <a href="#" class="dropdown-toggle download-app" data-toggle="dropdown" role="button">Descarga el app</a>
+        </div>
+    </section>
+    <!-- Añadimos section logo-app -->
+    <section class="container-fluit third-section">
+        <div class="row">
+            <figure class="col-xs-12 col-md-offset-2 col-md-10 col-md-pull-0 iphone">
+                <p>La nueva app</p>
+                <img src="assets/images/iPhone6Plus.png" alt="">
+                <div class="col-xs-5 col-md-4 hidden-xs text-app pull-right">
+                    <h2><strong>Descarga la nueva app</strong></h2>
+                    <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.<br>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+                </div>
+            </figure>
+            <span>Llega a tu destino aún más rápido</span>
+        </div>
+    </section>
+    <!-- Añadimos section conductor -->
+    <section class="container-fluit fourth-section">
+        <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="col-xs-12 col-md-7 registry">
+                        <h1><strong>Conduce cuando quieras</strong></h1>
+                        <h2>LabCar es una opción flexible para alcanzar tus metas<br>financieras</h2>
+                        <a href="#" class="dropdown-toggle new-conductor" data-toggle="dropdown" role="button">Conviértete en conductor</a>
+                    </div>
+                </div>
             </div>
-        </section>
-        <section>
-            <div class="row second-section">
-                <figure class="iphone col-md-offset-2 col-md-10 col-md-pull-0">
-                    <img src="assets/images/iPhone6Plus.png" alt="">
-                </figure>
-            </div>
-        </section>
-    </div>
+    </section>
     <!-- Import jQuery and bootstrap -->
     <script src="vendors/js/jquery.js"></script>
     <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
