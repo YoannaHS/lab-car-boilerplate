@@ -5,7 +5,15 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
     padding-top: 50px;
+}
+
+.container-fluit {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Sección dos */
@@ -83,4 +91,71 @@ body {
     padding: 10px;
     border-radius: 15px;
     color: #ffff;
+}
+
+/* Quinta sección */
+.five-section {
+    background-color: #f7b617;
+    color: #ffff;
+    line-height: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.five-section .rates {
+    padding: 5rem;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.location {
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #ffff;
+    border-radius: 15px;
+    color: #ffff; 
+}
+
+.rates .route {
+    width: 10em;  
+    font-size: 1em;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.rates, span, img {
+    margin-right: 1em;
+}
+
+.route:hover {
+    color: 0, 0, 0, 123;
+}
+
+.gps-maps img {
+    padding: 5rem;
+    width: 100%;
+    height: auto;
+}
+
+.pie-pagina {
+    background-color: #2f3943;
+    color: #ffff;
+}
+
+.pie-pagina .log-hidden {
+    margin: 8px;
+}
+.pie-pagina ul {
+    list-style: none;
+}
+.pie-pagina, li, a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.letter-footer {
+    padding: 8px;
 }
